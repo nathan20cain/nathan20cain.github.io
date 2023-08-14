@@ -204,7 +204,7 @@ p {
     color: white;
     background-color: black;
     padding: 10px;
-    background-image: url(rain.PNG);
+    background-image: url(images/rain.PNG);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -218,7 +218,7 @@ p {
     background-color: black;
     padding-bottom: 50px;
     height: 400px;
-    background-image: url(rain2.png);
+    background-image: url(images/rain2.png);
     background-repeat: no-repeat;
     background-position: right;
 
