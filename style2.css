@@ -1,0 +1,238 @@
+html {
+    scroll-behavior: smooth;
+}
+.nameplate {
+    background-image: url(https://64.media.tumblr.com/d98d429e41075d0f59ec0fdc8d3963e0/6c5800c615544881-9d/s400x600/d85b5a397c3821575668dafe2ed47200fda23530.gifv);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    height: 400px;
+    margin-top: 30px;
+    padding: 40px;
+}
+.navbar {
+    background-color: black;
+    position: fixed; 
+    overflow: hidden;
+    top: 0; 
+    width: 100%; 
+    padding: 10px;
+    display: flex;
+}
+
+.navbar a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    flex:1 1 200px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+    display: inline;
+    flex:00px;
+    text-align: right;
+    font-size: 16px; 
+    top: 0; 
+}
+
+#pf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000000;
+} 
+
+#service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.project {
+    width: calc(33% - 10px);
+    background-color: #000000;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.project2 {
+    width: calc(100%);
+    background-color: #000000;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.project:hover {
+    background-color: #1b2024;
+}
+
+.project2:hover {
+    background-color: #1b2024;
+}
+
+.project h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;;
+}
+
+.project p {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.project2 h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;;
+}
+
+.project2 p {
+    margin: 0px 0;
+    color: #ffffff;
+}
+
+.project a {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.tiny {
+    height: 125px;
+    width: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 75px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    float: right;
+}
+
+span {
+    font-size: 1.75em;
+    color: black;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.profile {
+    height: 110px;
+    width: 110px;
+    float: left;
+    padding: 10px;
+}
+
+.block {
+    padding-left: 10px;
+    max-width: 600px;
+}
+
+.portfolio {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: rgb(173, 230, 177);
+}  
+
+h1 {
+    color: orange;
+    padding-left: 10px;
+}
+
+h3 {
+    padding-left: 40px;
+}
+
+h4 {
+    padding-left: 40px;
+}
+
+.resume {
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.service {
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p {
+    padding-left: 60px;
+}
+.graph {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width:400px;
+    height:248px;
+    padding-left: 100px;
+}
+
+.intro {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    background-image: url(rain.PNG);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer{
+    text-align: center;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+    height: 400px;
+    background-image: url(rain2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.footerPic {
+    height: 50px;
+    width: 50px;
+}
+
+.smalltext {
+    display: none;
+}
+
+* {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    box-sizing: border-box;
+}

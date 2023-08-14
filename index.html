@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Nathan's Personal Webpage'</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id = "mainStyleSheet" rel="stylesheet" type="text/css" href="style2.css" media="print" onload="this.media='all'"></link>
+    </head>
+    <body>
+        <a id="home"></a>
+        <div class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#service">Service</a>
+             
+            <div class="container">
+                <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+            </div>  
+          <script src="functions.js"></script>
+
+
+        </div>
+        <div class="nameplate">
+            <h1><span>Nathan Cain</span></h1>
+            <p><span>Computer Science Junior at Texas A&M</span></p>
+            <a href="https://github.com/nathan20cain" target="_blank"><img class = "tiny" src="git.png"></a>
+            <a href="mailto:nathan20cain@tamu.edu" target="_blank"><img class = "tiny" src="https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/439/aiga_mail-512.png"></a>
+            <a href="https://www.linkedin.com/in/nathan-j-cain/" target="_blank"><img class = "tiny" src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png"></a>
+            <a href="https://www.instagram.com/nathan_ca1n/" target="_blank"><img class = "tiny" src="https://assets.stickpng.com/thumbs/5ecec78673e4440004f09e77.png"></a>
+        </div>
+
+        <div class="intro">
+            <h2>Let Me Introduce Myself</h2>
+            <p class="block">
+            <img class="profile" src="nathan_image-modified.png">
+            I am an Aggie engineer seeking a full-time SWE position for the Spring or Summer of 2024. I plan to graduate from Texas A&M in 2024 with a B.S. in Computer Science. 
+            My current primary interests are Software Engineering, Information Security, and Cybersecurity! In my free time, I enjoy swimming and hiking.
+            </p>
+        </div>
+        
+        <a id="portfolio"></a>
+        <div class = "portfolio"> 
+            <h1>Portfolio</h1>
+        </div>
+        <div id = "pf">
+        
+            <!--<h1>Portfolio</h1>
+            <h2>Past Projects</h2>
+    
+            <h3>Personal Webpage</h3> 
+            <p>Created a personal webpage to showcase myself using HTML, CSS, and JavaScript. If you'd like to check out the page,
+            click <a href="http://people.tamu.edu/~nathan20cain/" target="_blank">here</a>!
+            </p>
+            
+            
+            <h3>.HACK to .ASM and .ASM to .HACK Converter</h3> 
+            <p>This project was made in Python to convert files from assembly language to HACK programming language and vice versa. If you'd like to check
+                out the project, click <a href="https://github.tamu.edu/nathan20cain/hack2ASM" target="_blank">here</a>!
+            </p>
+    
+            <h3>Plot-based Angry Birds</h3> 
+            <p>This project was made in Python using a plotting package to create a simple user input game. </p>
+            <img class = "graph" src="https://i.ibb.co/vjjLJ97/bird.png">
+    
+            
+            <h2>Current/Future Projects</h2>
+            
+            
+            <h3>President Fact Webscraper</h3> 
+            <p>A python-based program that scrapes one-line facts off of the 
+                <a href="https://en.wikipedia.org/wiki/Category:Presidents_of_the_United_States" target="_blank">Wikipedia Pages of the 46 U.S. Presidents</a>
+             and outputs them. </p>
+    
+            <h3>Aggie Bus Map</h3> 
+            <p>A C++ program that uses Dijkstra's algorithm to determine the shortest path to various A&M landmarks / provided coordinates using
+                the bus system at Texas A&M University.
+            </p> -->
+        </div>
+
+        <a id="resume"></a>
+        <div class="resume">
+            <h1>Resume</h1>
+            <h2>An insight into my credentials, activities, and skills</h2>
+    
+            <h4><a href="https://drive.google.com/file/d/1K-Kd9UjFmuwi_hsGrypuaDE8cXFPYcFC/view?usp=sharing" target="_blank">PDF Resume</a> </h4> 
+    
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Adept: C++, Python, Java
+                <li>Proficient: Haskell, HTML, Git, HDL (Hack), CSS
+                <li>Familiar with: SQL, ASM, C, R
+            </ul>
+    
+            <h3> Technical Interests </h3>
+            <p>Currently, I am interested in Software Engineering and Cybersecurity. Writing basic programs and learning through simple
+            exercises sparked my passion for computer science. As the programs got more advanced and impactful, I realized I had found something
+            that incorporated problem-solving, creativity, organization, and collaboration in a fast, immersive, and relevant field, which ultimately
+            led to my decision to pursue computer science as my major. A few semesters ago, I participated in a beginner's Hack The Box competition,
+            which exposed me to the vast field of Cybersecurity. Since then, I have continued to pursue a path in cybersecurity.       
+            </p>
+        </div>
+
+        <a id="service"></a>
+        <div class="service">        
+            <h1>Service</h1>
+            <h2>Summary of some of the volunteer and service work done in my communities</h2>
+        </div>
+
+        <div id="service-container"></div>
+        <script src="scripts.js"></script>
+
+            <!-- <div class = "one">
+                <h3>ECOS Fellow/Coach</h3>
+                <p>
+                    Currently, I serve as a Coach for the Engineering Community of Scholars 
+                    <a href="https://engineering.tamu.edu/academics/eh/ecos/index.html" target="_blank">(ECOS)</a>
+                    LLC for Engineering Honors students here 
+                    at Texas A&M University. My roles include directing weekly professional development and community-building events, leading 
+                    program-wide tutoring and review sessions for computer science, math, and science courses, and serving as a mentor for new 
+                    incoming freshmen in their first year of college. I also stand as one of the main liaisons between the Engineering Honors 
+                    program and the ECOS residents. 
+                </p>
+            </div>
+
+            <div class = "two">
+                <h3>Teaching Assistant for CLEN 181</h3>
+                <p>
+                    In the 2021-2022 school year, I served as a teaching assistant for 
+                    <a href="https://engineering.tamu.edu/information/instructor-application/index.html" target="_blank">CLEN 181</a> 
+                    in the College of Engineering at Texas A&M 
+                    University. This class focused on providing first-semester freshmen with a small community in a class while providing 
+                    essential engineering and campus resources, focusing on mental health and identity. My roles included directing and 
+                    assisting classes in lecture and small-group assignments; building college readiness, mental health, and reflection; 
+                    and promoting student engagement through individualized meetings.  
+                </p>
+            </div>
+    
+            <div class ="three">
+                <h3>English Teacher</h3>
+                <p>
+                    In the summer of 2019, I volunteered with an association to teach English abroad to children in disadvantaged regions of 
+                    Taiwan. This experience lead me to a city school in Chiayi, Taiwan, where I taught English to elementary school children 
+                    for 4 weeks. Here, I bridged the gap between Mandarin and English and fostered a rich learning environment for students 
+                    to better understand English.   
+                </p>
+            </div>
+
+            <div class = "four">
+                <h3>Eagle Scout Project</h3>
+                <p>
+                    At age 16, I completed my Eagle Scout Project with the Boy Scouts of America. My project involved building and installing 
+                    2 benches and over 30 Emergency Locator Posts for a local park, as well as creating a new park map for the trailhead, website, 
+                    and emergency personnel. The project took many months of planning, securing necessary paperwork and permissions, and labor, 
+                    totaling over 400 hours of work to complete the project.   
+                </p></div>
+            </div> -->
+
+
+        <div class = "footer">
+            <h2>Connect with me on LinkedIn</h2>
+            <a href="https://www.linkedin.com/in/nathan-j-cain/" target="_blank"><img class = "footerPic" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+            <p class = "smalltext"> Edited by Nathan Cain - 2023</p>
+        </div>
+    </body>
+</html>

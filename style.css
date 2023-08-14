@@ -1,0 +1,218 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #004c82;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+#pf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+#service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(33% - 10px);
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.project2 {
+    width: calc(100%);
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.project:hover {
+    background-color: #abd4f4;
+}
+
+.project2:hover {
+    background-color: #abd4f4;
+}
+
+.project h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.project p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.project a {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.tiny {
+    height: 125px;
+    width: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 75px;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #686fff;
+    color: white;
+  }
+
+html,body {
+    margin: 0;
+    padding:0;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+h2 {
+    color:slateblue;
+    text-align: center;
+}
+h3 {
+    color: steelblue;
+}
+h4{
+    color: darkslateblue;
+    text-align: center;
+}
+.intro {
+    background-color: lightblue;
+    margin: 0;
+    text-align: center;
+    padding: 70px;
+    font-size: 1.25em;
+}
+.graph {
+   width:300px;
+   height:248px;
+   background-color:lightblue;
+}
+.nameplate {
+    margin-top: 30px;
+    background-image: url("mountain.jpg");
+    padding: 75px;
+    height: 800px;
+    text-align: center;
+}
+
+.portfolio {
+    padding:20px;
+    background-color: #ffffff;
+}
+
+.resume {
+    background-color: #cdf2ff;
+    padding: 20px;
+}
+
+.service {
+    padding: 20px;
+}
+p.block {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.profile {
+    height: 110px;
+    width: 120px;
+    float: left;
+    padding-right: 10px;
+}
+span {
+    font-size: 3em;
+}
+
+.footer {
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footerPic {
+    height: 75px;
+    width: 75px;
+}
+
+.container {
+    background-color: transparent;
+    border: 0;
+    padding: 13px 32px;
+    margin-left: 1000px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed; 
+    top: 0; 
+}
+
+.smalltext {
+    color: white;
+    padding-top: 30px;
+    font-size: .5em;
+    text-align: center;
+}
+.one {
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+.two {
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+.three {
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+.four {
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
